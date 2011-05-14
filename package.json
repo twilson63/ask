@@ -1,0 +1,24 @@
+{
+  "name":         "ask",
+  "description":  "ask user prompt for cake",
+  "keywords":     ["javascript", "prompt", "cake", "coffeescript"],
+  "author":       "Tom Wilson",
+  "version":      "0.0.1",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/twilson63/ask/raw/master/LICENSE"
+  }],
+  "engines":      {
+    "node":       ">=0.2.5"
+  },
+  "directories" : {
+    "lib" : "./lib"
+  },
+  "main" : "./lib/ask",
+  "homepage":     "http://github.com/twilson63/ask/raw/master/readme.md",
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/twilson63/ask.git"
+  }
+}
+
