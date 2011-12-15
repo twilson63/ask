@@ -9,7 +9,7 @@ cake files
 npm install ask
 
 # in your cakefile
-{ ask } = require('ask')
+ask = require('ask')
 
 task 'atask', 'description', ->
   ask 'question', /.+/, (answer) ->

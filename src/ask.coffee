@@ -1,5 +1,11 @@
-require 'coffee-script'
-exports.ask = (question, format, callback) ->
+# # Ask 
+#
+# Usage:
+#
+# ask = require 'ask'
+# ask 'What is your favorite color?', /.+/, (response) -> console.log response
+#
+module.exports = (question, format, callback) ->
   stdin = process.stdin
   stdout = process.stdout
 

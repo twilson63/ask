@@ -1,0 +1,141 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.1.0-alpha-6
+info using node@v0.6.5
+verbose config file /Users/twilson63/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose caching /Users/twilson63/code/ask/package.json
+verbose loadDefaults ask@0.1.0
+info prepublish ask@0.1.0
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+verbose caching package.json
+verbose loadDefaults ask@0.1.0
+verbose pack /Users/twilson63/code/ask /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/tmp.tgz
+silly makeList /Users/twilson63/code/ask
+silly dir, dirLen [ '/Users/twilson63/code/ask', 26 ]
+verbose tarball /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/tmp.tgz
+verbose parent /Users/twilson63/code/ask
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm'
+verbose mkdir done: /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/Cakefile
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/LICENSE
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/package.json
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/readme.md
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/lib
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/lib/ask.js
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/spec
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/spec/ask_spec.coffee
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/src
+silly asyncMap in gTP /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask/src/ask.coffee
+verbose gunzed /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask
+verbose rm'ed /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package
+verbose renamed [ '/var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/___package.npm/ask',
+verbose renamed   '/var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package' ]
+verbose caching /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package/package.json
+verbose loadDefaults ask@0.1.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package/package.json
+verbose pack /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package /Users/twilson63/.npm/ask/0.1.0/package.tgz
+silly makeList /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package
+silly dir, dirLen [ '/var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/twilson63/.npm/ask/0.1.0/package.tgz
+verbose parent /var/folders/6m/8kkwqk753ws26x87vbh8z7l00000gn/T/npm-1323933574959/1323933574959-0.9913877658545971/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/twilson63/.npm/ask/0.1.0/___package.npm'
+verbose mkdir done: /Users/twilson63/.npm/ask/0.1.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/twilson63/.npm/ask/0.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/Cakefile
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/package.json
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/readme.md
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/lib
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/lib/ask.js
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/spec
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/spec/ask_spec.coffee
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/src
+silly asyncMap in gTP /Users/twilson63/.npm/ask/0.1.0/___package.npm/package/src/ask.coffee
+verbose gunzed /Users/twilson63/.npm/ask/0.1.0/___package.npm/package
+verbose rm'ed /Users/twilson63/.npm/ask/0.1.0/package
+verbose renamed [ '/Users/twilson63/.npm/ask/0.1.0/___package.npm/package',
+verbose renamed   '/Users/twilson63/.npm/ask/0.1.0/package' ]
+verbose caching /Users/twilson63/.npm/ask/0.1.0/package/package.json
+verbose loadDefaults ask@0.1.0
+silly updated sha bytes 2334
+info shasum 200c46ad543c3861721245ba4588c9f85a97f18d
+info shasum /Users/twilson63/.npm/ask/0.1.0/package.tgz
+verbose from cache /Users/twilson63/.npm/ask/0.1.0/package/package.json
+verbose chmod /Users/twilson63/.npm/ask/0.1.0/package.tgz 644
+verbose chown [ '/Users/twilson63/.npm/ask/0.1.0/package.tgz', 501, 20 ]
+silly publish { name: 'ask',
+silly publish   description: 'ask user prompt for nodejs',
+silly publish   keywords: [ 'javascript', 'prompt', 'cake', 'coffeescript' ],
+silly publish   author: { name: 'Tom Wilson' },
+silly publish   version: '0.1.0',
+silly publish   licenses: 
+silly publish    [ { type: 'MIT',
+silly publish        url: 'http://github.com/twilson63/ask/raw/master/LICENSE' } ],
+silly publish   engines: { node: '~0.6.x' },
+silly publish   directories: { lib: './lib' },
+silly publish   main: './lib/ask',
+silly publish   homepage: 'http://github.com/twilson63/ask/raw/master/readme.md',
+silly publish   repository: { type: 'git', url: 'git://github.com/twilson63/ask.git' },
+silly publish   _npmUser: { name: 'twilson63', email: 'tom@jackhq.com' },
+silly publish   _id: 'ask@0.1.0',
+silly publish   dependencies: {},
+silly publish   devDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.0-alpha-6',
+silly publish   _nodeVersion: 'v0.6.5',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '200c46ad543c3861721245ba4588c9f85a97f18d',
+silly publish      tarball: 'http://registry.npmjs.org/ask/-/ask-0.1.0.tgz' } }
+verbose PUT ask
+verbose raw, before any munging ask
+verbose url resolving [ 'https://registry.npmjs.org/', './ask' ]
+verbose url resolved https://registry.npmjs.org/ask
+verbose GET ask
+verbose raw, before any munging ask
+verbose url resolving [ 'https://registry.npmjs.org/', './ask' ]
+verbose url resolved https://registry.npmjs.org/ask
+verbose PUT ask/0.1.0/-tag/latest
+verbose raw, before any munging ask/0.1.0/-tag/latest
+verbose url resolving [ 'https://registry.npmjs.org/', './ask/0.1.0/-tag/latest' ]
+verbose url resolved https://registry.npmjs.org/ask/0.1.0/-tag/latest
+ERR! Error sending version data
+ERR! Error: forbidden 0.1.0 is modified, should match modified time: ask/0.1.0/-tag/latest
+ERR!     at Request._callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:180:12)
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:104:22)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:450:18)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:404:16)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:137:23)
+ERR!     at CleartextStream.ondata (http.js:1124:24)
+ERR!     at CleartextStream._push (tls.js:363:27)
+ERR!     at SecurePair.cycle (tls.js:685:20)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /Users/twilson63/code/ask
+ERR! node -v v0.6.5
+ERR! npm -v 1.1.0-alpha-6
+ERR! message forbidden 0.1.0 is modified, should match modified time: ask/0.1.0/-tag/latest
+verbose exit [ 1, true ]

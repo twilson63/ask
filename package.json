@@ -1,15 +1,15 @@
 {
   "name":         "ask",
-  "description":  "ask user prompt for cake",
+  "description":  "ask user prompt for nodejs",
   "keywords":     ["javascript", "prompt", "cake", "coffeescript"],
   "author":       "Tom Wilson",
-  "version":      "0.0.1",
+  "version":      "0.1.0",
   "licenses":     [{
     "type":       "MIT",
     "url":        "http://github.com/twilson63/ask/raw/master/LICENSE"
   }],
   "engines":      {
-    "node":       ">=0.2.5"
+    "node":       "~0.6.x"
   },
   "directories" : {
     "lib" : "./lib"
