@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/twilson63/ask.png)](http://travis-ci.org/twilson63/ask)
 # Ask Prompt Module
 
 This module makes it easy to add an ask prompt in your
